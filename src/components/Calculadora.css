@@ -1,0 +1,59 @@
+.Container {
+    background-color: #354f52;
+    width: 25%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 520px;
+    border-radius: 8px;
+}
+
+button {
+  font-size: 30px;
+  margin: 3px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: 0;
+  padding: 2px;
+  
+}
+
+.botaoCinza {
+    background-color: #cad2c5;
+    color: #000000;
+}
+
+.botaoVerde {
+    background-color: #84a98c;
+    color: #FFFFFF;  
+}
+
+.botaoEsc {
+    background-color: #52796f;
+    color: #FFFFFF;
+    
+}
+
+.botaoZero {
+    background-color: #52796f;
+    color: #FFFFFF;
+    width: 125px;
+    height: 60px;
+    text-align: left;
+    padding-left: 22px;
+}
+
+.res {
+    color: #FFFFFF;
+    padding-left: 197px;
+    font-size: 18px;
+}
+
+button :focus,
+button :active {
+outline: none;
+}
